@@ -5,5 +5,5 @@ As example, Dekker's algorithm for synchronizing two threads is used. Note that 
 Each implementation (using a different memory order model) is a single file, which can be compiled as follows:
 
 ```
-$ clang++ da-mem_order_sequential_consistent.cc -lpthread -std=c++11 -O0
+$ clang++ dekker-mem_order_relaxed.cc -lpthread -std=c++11 -O0
 ```
